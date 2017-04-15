@@ -1,0 +1,83 @@
+body {
+  font-family: arial;
+  background-color: grey;
+  text-align: center;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.left {
+  float: left;
+  height: 500px;
+  width: 40%;
+  background-image: url('/images/beatles.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10%;
+}
+
+.left:hover {
+  background-color: hsla(0, 0, 45%, .5);
+}
+
+.right {
+  float: left;
+  height: 500px;
+  width: 40%;
+  background-image: url('/images/sgt-peppers.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10%;
+}
+
+.right:hover {
+  background-color: hsla(0, 0, 45%, .5);
+}
+
+a,
+a:hover {
+  color: black;
+}
+
+.header {
+  width: 400px;
+  margin: 20px auto 50px;
+  color: white;
+}
+
+/*  ----------  ABOUT  ----------  */
+
+
+.about {
+  text-align: left;
+  margin: 0 10px;
+}
+
+.about > p {
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+/*  ----------  GALLERY  ----------  */
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.image {
+  border-bottom: 1px solid grey;
+  margin: 0 10px 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 780px;
+}
